@@ -169,17 +169,18 @@ def player_stats(player_name)
     game_hash.values.each do |team_info|
      team_info[:players].each do |player|
        if player.has_value?(player_name)
+<<<<<<< HEAD
          player.include?(:player_name) 
           return player
         end
       end
+=======
+         
+     end
+>>>>>>> 414dbed026108acac2ffeb653cae70d7463b7870
    end
  end
           
-    
-  
-
-
 def big_shoe_rebounds
  biggest_shoe = 0
    player_rebounds = 0
